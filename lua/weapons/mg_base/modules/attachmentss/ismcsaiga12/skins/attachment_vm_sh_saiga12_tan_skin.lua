@@ -10,5 +10,5 @@ local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Appearance(model, category)
     BaseClass.Appearance(self, model, category)
     if (SERVER) then return end
-	model:SetSkin(3)
+	model:SetSkin(2)
 end
