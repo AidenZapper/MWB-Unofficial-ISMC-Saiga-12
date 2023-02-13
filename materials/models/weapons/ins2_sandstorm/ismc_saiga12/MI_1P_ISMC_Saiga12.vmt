@@ -1,0 +1,31 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\ins2_sandstorm\ismc_saiga12\t_1p_saiga12_col"
+	"$bumpmap" "models\weapons\ins2_sandstorm\ismc_saiga12\t_1p_saiga12_nrm"
+	"$phongexponenttexture" "models\weapons\ins2_sandstorm\ismc_saiga12\t_1p_saiga12_exp"
+	"$phongwarptexture" "phongwarp_steel" // this isn't necessary but incase if you wanna make the phong changes into more warpy
+	"$normalmapalphaenvmapmask" "0" // add env mask from normal map alpha channel additionally
+	"$nocull" "1" // Important for fighting Z stuff
+	"$nodecal" "0" // Enable this incase If the model crash when damage the model. But you won't see bullet holes or less blood decals.
+	"$color2" "[ 1 1 1 ]" // this will tint the masked parts(white parts)for the base texture alpha channel that use metallic map
+	"$blendtintbybasealpha" "1" // Enable this for env mask on base texture alpha. You can disable it if it's gun or dark texture style once again I said
+	"$phong" "1" // Important for material shading stuff
+	"$phongboost" "25" // The higher the model brighter, the lower has less shine,reflect and bright
+//	"$phongexponent" "20" // The higher number, It's more sharper while lower number, It's more broader
+	"$phongalbedotint" "1" // Important for base texture effect. Disable it if has issue for env mask. REMEMBER, Make sure to adjust Phong setting to reduce since it determine if it's bright or low
+	"$PhongFresnelRanges" "[ .1 .5 1 ]" // X, Y and Z numbers each surface handle for phong
+	"$envmap" "env_cubemap" // Defines an specular reflections
+	"$envmapfresnel" "0.4" // add gloss stiff effects. You can reduce it but don't set it higher
+	"$envmaptint" "[ .1 .1 .1 ]" // Controls Intensity for reflections. Play around with it
+	"Proxies"
+	{
+		"MwEnvMapTint"
+		{
+			"min" "0"
+			"max" "0.09"
+		}
+	}
+}
+// I highly suggest looking into https://developer.valvesoftware.com/wiki/VertexLitGeneric for educating Material shading info
+// Credit Aidenzappering for VMT Template
+// Fiddle around the settings and get the best result from your lucks
