@@ -1,0 +1,179 @@
+// Created by Crowbar 0.73
+
+  Decompiling "v_akilo47.mdl" ...
+    Model version 49 detected.
+    Reading MDL file header ...
+    ... Reading MDL file header finished.
+    Checking for required files ...
+    ... All required files found.
+    Reading data ...
+      Reading MDL file ...
+      ... Reading MDL file finished.
+      Reading VTX file ...
+      ... Reading VTX file finished.
+      Reading VVD file ...
+      ... Reading VVD file finished.
+    ... Reading data finished.
+    Writing data ...
+      QC file: 
+        v_akilo47.qc
+      Reference mesh files: 
+        attachment_vm_ar_akilo47_receiver.smd
+        attachment_vm_ar_akilo47_rail.smd
+        attachment_vm_ar_akilo47_stock_adapter.smd
+      LOD mesh files: 
+      Bone animation files: 
+        a_aim_idle_to_sub_corrective_animation.smd
+        a_delta_ads_additive_for_offset_corrective_animation.smd
+        a_jog_offset_idle_corrective_animation.smd
+        a_jog_offset_corrective_animation.smd
+        @a_jog_to_walk_corrective_animation.smd
+        a_firemode_idle_corrective_animation.smd
+        a_semi_override_additive_corrective_animation.smd
+        a_jog_idle_corrective_animation.smd
+        a_jog_corrective_animation.smd
+        a_walk_idle_corrective_animation.smd
+        a_walk_corrective_animation.smd
+        @a_walk_to_sprint_corrective_animation.smd
+        a_sprint_idle_corrective_animation.smd
+        a_sprint_corrective_animation.smd
+        @a_sprint_to_walk_corrective_animation.smd
+        a_sprint_offset_idle_corrective_animation.smd
+        a_sprint_offset_corrective_animation.smd
+        a_fidget_corrective_animation.smd
+        a_zerodiff_corrective_animation.smd
+        a_freefall_idle_corrective_animation.smd
+        a_freefall_corrective_animation.smd
+        @a_landdelta_corrective_animation.smd
+        @a_jumpdelta_corrective_animation.smd
+        a_grip_ang_idle_to_sub_corrective_animation.smd
+        a_delta_grip_ang_additive_for_offset_corrective_animation.smd
+        a_grip_vert_idle_to_sub_corrective_animation.smd
+        a_delta_grip_vert_additive_for_offset_corrective_animation.smd
+        a_grip_vert_pro_idle_to_sub_corrective_animation.smd
+        a_delta_grip_vert_pro_additive_for_offset_corrective_animation.smd
+        a_grip_smg_pose_idle_to_sub_corrective_animation.smd
+        a_delta_grip_smg_pose_additive_for_offset_corrective_animation.smd
+        a_grip_vert_pro_smg_idle_to_sub_corrective_animation.smd
+        a_delta_grip_vert_pro_smg_additive_for_offset_corrective_animation.smd
+        a_grip_smg_anggrip_idle_to_sub_corrective_animation.smd
+        a_delta_grip_smg_anggrip_additive_for_offset_corrective_animation.smd
+        idle.smd
+        holster.smd
+        draw.smd
+        semi_on.smd
+        semi_off.smd
+        draw_first.smd
+        reload_empty.smd
+        reload_empty_2.smd
+        reload_empty_fast.smd
+        reload_empty_fast_2.smd
+        reload_empty_drum.smd
+        reload_empty_drum_2.smd
+        reload_empty_drum_fast.smd
+        reload_empty_drum_fast_2.smd
+        reload.smd
+        reload_2.smd
+        reload_rail.smd
+        reload_rail_2.smd
+        reload_fast.smd
+        reload_fast_2.smd
+        reload_smgcal.smd
+        reload_smgcal_2.smd
+        reload_rail_smgcal.smd
+        reload_rail_smgcal_2.smd
+        reload_empty_smgcal.smd
+        reload_empty_smgcal_2.smd
+        reload_smgcal_fast.smd
+        reload_smgcal_fast_2.smd
+        reload_empty_smgcal_fast.smd
+        reload_empty_smgcal_fast_2.smd
+        reload_drum.smd
+        reload_drum_2.smd
+        reload_drum_fast.smd
+        reload_drum_fast_2.smd
+        fire.smd
+        fire_2.smd
+        inspect.smd
+        melee_miss_01.smd
+        melee_miss_02.smd
+        melee_miss_03.smd
+        melee_hit_01.smd
+        melee_hit_02.smd
+        melee_hit_03.smd
+        melee_miss_01_bayonet.smd
+        melee_miss_02_bayonet.smd
+        melee_miss_03_bayonet.smd
+        melee_hit_01_bayonet.smd
+        melee_hit_02_bayonet.smd
+        melee_hit_03_bayonet.smd
+        ads_in.smd
+        ads_out.smd
+        aim_idle_to_sub.smd
+        a_aim_idle_to_sub.smd
+        a_delta_ads_additive_for_offset.smd
+        jog_offset_to_sub.smd
+        jog_idle_to_sub.smd
+        a_jog_offset_idle.smd
+        a_jog_offset.smd
+        jog_out_to_sub.smd
+        a_jog_to_walk.smd
+        jog_out.smd
+        firemode_idle_to_sub.smd
+        a_firemode_idle.smd
+        a_semi_override_additive.smd
+        a_jog_idle_to_sub.smd
+        a_jog_to_sub.smd
+        a_jog_idle.smd
+        a_jog.smd
+        a_walk_idle_to_sub.smd
+        a_walk_to_sub.smd
+        a_walk_idle.smd
+        a_walk.smd
+        sprint_in_to_sub.smd
+        a_walk_to_sprint.smd
+        sprint_in.smd
+        a_sprint_idle_to_sub.smd
+        a_sprint_idle.smd
+        a_sprint.smd
+        sprint_out_to_sub.smd
+        a_sprint_to_walk.smd
+        sprint_out.smd
+        sprint_offset_to_sub.smd
+        sprint_idle_to_sub.smd
+        a_sprint_offset_idle.smd
+        a_sprint_offset.smd
+        a_normalidle_to_sub.smd
+        fuckedpose_to_sub.smd
+        a_zerodiff.smd
+        a_fidget.smd
+        freefall_idle_to_sub.smd
+        freefall_to_sub.smd
+        a_freefall_idle.smd
+        a_freefall.smd
+        jump_land_to_sub.smd
+        a_landdelta.smd
+        jump_land.smd
+        jump_to_sub.smd
+        a_jumpdelta.smd
+        jump.smd
+        grip_ang_idle_to_sub.smd
+        a_grip_ang_idle_to_sub.smd
+        a_delta_grip_ang_additive_for_offset.smd
+        grip_vert_idle_to_sub.smd
+        a_grip_vert_idle_to_sub.smd
+        a_delta_grip_vert_additive_for_offset.smd
+        grip_vert_pro_idle_to_sub.smd
+        a_grip_vert_pro_idle_to_sub.smd
+        a_delta_grip_vert_pro_additive_for_offset.smd
+        grip_smg_pose_idle_to_sub.smd
+        a_grip_smg_pose_idle_to_sub.smd
+        a_delta_grip_smg_pose_additive_for_offset.smd
+        grip_vert_pro_smg_idle_to_sub.smd
+        a_grip_vert_pro_smg_idle_to_sub.smd
+        a_delta_grip_vert_pro_smg_additive_for_offset.smd
+        grip_smg_anggrip_idle_to_sub.smd
+        a_grip_smg_anggrip_idle_to_sub.smd
+        a_delta_grip_smg_anggrip_additive_for_offset.smd
+    ... Writing data finished.
+  ... Decompiling "v_akilo47.mdl" finished.
