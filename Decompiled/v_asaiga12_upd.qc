@@ -12,13 +12,11 @@ $bodygroup "pistolgrip"
 }
 $bodygroup "tag_rail"
 {
+	studio "SKM_1P_ISMC_Saiga12_Sights.smd"
 	blank
-	studio "attachment_vm_ar_akilo47_rail.smd"
 }
 $bodygroup "tag_stock"
 {
-	blank
-	studio "attachment_vm_ar_akilo47_stock_adapter.smd"
 	studio "SKM_1P_ISMC_Saiga12_Stock.smd"
 	blank
 }
@@ -37,10 +35,9 @@ $cdmaterials "viper\MW\attachments\"
 
 $texturegroup "skinfamilies"
 {
-	{ "Gun"           }
-	{ "Gun_tan"       }
-	{ "Gun_fullblack" }
-	{ "Gun"           }
+	{ "MI_1P_ISMC_Saiga12"           }
+	{ "MI_1P_ISMC_Saiga12_Tan"       }
+	{ "MI_1P_ISMC_Saiga12"           }
 }
 
 $attachment "muzzle" "tag_flash" 0 0 0 rotate 0 0 0

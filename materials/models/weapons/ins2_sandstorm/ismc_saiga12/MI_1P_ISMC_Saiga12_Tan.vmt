@@ -10,7 +10,7 @@
 	"$color2" "[ 1 1 1 ]" // this will tint the masked parts(white parts)for the base texture alpha channel that use metallic map
 	"$blendtintbybasealpha" "1" // Enable this for env mask on base texture alpha. You can disable it if it's gun or dark texture style once again I said
 	"$phong" "1" // Important for material shading stuff
-	"$phongboost" "25" // The higher the model brighter, the lower has less shine,reflect and bright
+	"$phongboost" "19" // The higher the model brighter, the lower has less shine,reflect and bright
 //	"$phongexponent" "20" // The higher number, It's more sharper while lower number, It's more broader
 	"$phongalbedotint" "1" // Important for base texture effect. Disable it if has issue for env mask. REMEMBER, Make sure to adjust Phong setting to reduce since it determine if it's bright or low
 	"$PhongFresnelRanges" "[ .1 .5 1 ]" // X, Y and Z numbers each surface handle for phong
